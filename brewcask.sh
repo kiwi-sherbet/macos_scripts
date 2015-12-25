@@ -27,6 +27,8 @@ brew install opencv
 brew install pygame
 pip install numpy
 pip install matplotlib
+pip install -U nltk
+pip install PyOpenGL PyOpenGL_accelerate
 
 brew install cowsay
 brew install fortune
