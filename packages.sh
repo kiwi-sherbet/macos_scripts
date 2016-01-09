@@ -21,10 +21,10 @@ brew install python3
 
 brew tap homebrew/science
 brew update
-pip install numpy
-pip install matplotlib
-pip install PyOpenGL PyOpenGL_accelerate
-pip install nltk
+pip install -U numpy
+pip install -U matplotlib
+pip install -U PyOpenGL PyOpenGL_accelerate
+pip install -U nltk
 
 brew install opencv
 brew install pygame
