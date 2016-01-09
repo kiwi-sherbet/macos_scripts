@@ -23,12 +23,14 @@ brew install python3
 
 brew tap homebrew/science
 brew update
-brew install opencv
-brew install pygame
 pip install numpy
 pip install matplotlib
 pip install -U nltk
 pip install PyOpenGL PyOpenGL_accelerate
+brew install opencv
+brew install pygame
+
+brew install mutt
 
 brew install cowsay
 brew install fortune

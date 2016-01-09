@@ -1,3 +1,15 @@
+brew update
+brew upgrade
+
+brew install tmux
+brew install reattach-to-user-namespace
+
+brew install cowsay
+brew install fortune
+gem install lolcat
+
+brew install zsh --disable-etcdir
+
 #install Oh My Zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 

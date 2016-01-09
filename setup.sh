@@ -1,4 +1,5 @@
 . sudo -s
 . brew.sh
-. brewcask.sh
+. packages.sh
+. softwares.sh
 . shell.sh
