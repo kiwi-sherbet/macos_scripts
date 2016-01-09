@@ -53,10 +53,11 @@ plugins=(git ruby rails rvm python)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -74,13 +75,13 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-HISTSIZE=1000
-if (( ! EUID )); then
-  HISTFILE=~/.history_root
-else
-  HISTFILE=~/.history
-fi
-SAVEHIST=1000
+# HISTSIZE=1000
+# if (( ! EUID )); then
+#   HISTFILE=~/.history_root
+# else
+#   HISTFILE=~/.history
+# fi
+# SAVEHIST=1000
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -92,14 +93,20 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
 # Git
-alias gitinit="git init"
-alias gclone="git clone"
-alias gpull="git pull"
+alias gnit="git init"
+alias gone="git clone"
+alias gull="git pull"
 alias gadd="git add --all"
-alias gstatus="git status"
-alias gcommit="git commit -m"
-alias gpush="git push"
-alias gfetch="git fetch"
+alias gtus="git status"
+alias gmit="git commit -m"
+alias gush="git push"
+alias gtch="git fetch"
+alias gase="git rebase"
+alias gert="git revert"
+alias gset="git reset"
+alias gick="git cherry-pick"
+alias gout="git checkout"
+alias grge="git merge"
 
 alias py="python"
 alias py27="python2.7"
@@ -112,6 +119,7 @@ alias px4_mixer="cd ~/Projects/arcl/Firmware/src/modules/systemlib/mixer"
 
 # Hash
 hash -d arcl=$HOME/Projects/arcl
+hash -d osx=$HOME/osx_scripts
 hash -d testing=$HOME/Projects/testing
 
 fortune | cowsay | lolcat

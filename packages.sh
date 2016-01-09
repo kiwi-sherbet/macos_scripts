@@ -9,6 +9,7 @@ brew tap homebrew/x11
 brew install Caskroom/cask/xquartz
 
 brew install wget
+brew install git
 
 brew install cmake
 

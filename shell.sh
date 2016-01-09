@@ -12,10 +12,16 @@ brew install zsh --disable-etcdir
 
 #install Oh My Zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
 rm ~/.zshrc
+cp ./terminal/.zshrc ~/.zshrc
 
-cp .zshrc ~/.zshrc
+pip install https://github.com/Lokaltog/powerline/tarball/develop
+git clone https://github.com/powerline/fonts.git ~/fonts
+. ~/fonts/install.sh
+rm -rf ~/fonts
+
+brew install vim --env-std --override-system-vim
+cp ./terminal/.vimrc ~/.vimrc
 
 #shortcuts
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
