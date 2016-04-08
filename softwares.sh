@@ -26,3 +26,6 @@ brew cask install appcleaner
 brew cask install the-unarchiver
 
 brew cask install gfxcardstatus
+
+brew cask install arduino
+brew cask install limechat

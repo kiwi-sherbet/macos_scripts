@@ -23,6 +23,11 @@ rm -rf ~/fonts
 brew install vim --env-std --override-system-vim
 cp ./terminal/.vimrc ~/.vimrc
 
+brew install mutt
+cp ./terminal/.muttrc ~/.muttrc
+chmod 755 ./terminal/mutt/urldefensedefense
+chmod 755 ./terminal/mutt/mutt-ics
+
 #shortcuts
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom

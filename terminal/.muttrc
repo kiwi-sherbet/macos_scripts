@@ -1,0 +1,57 @@
+color header brightred black subject
+color hdrdefault brightwhite black
+color quoted brightgreen black
+color status white blue
+color indicator black yellow
+
+set imap_user="mseo12@illinois.edu"
+set imap_pass="Ut84152680"
+set from="mseo12@illinois.edu"
+set realname="Mingyo Seo"
+set folder="imaps://imap.illinois.edu:993"
+
+set spoolfile="+Inbox"
+set postponed="+Drafts"
+set copy=yes
+set record="+Sent"
+# set trash="+Trash"
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt-certs
+
+set move=no
+set imap_keepalive=900
+
+set sort='threads'
+set sort_aux='reverse-date-received'
+
+ignore "Authentication-Results"
+ignore "DomainKey-Signature"
+ignore "DKIM-Signature"
+hdr_order Date From To Cc
+
+unset save_empty
+set pager_stop
+set sort="threads"
+set allow_8bit
+set use_8bitmime
+set charset="utf-8"
+set send_charset="utf-8"
+set tmpdir="/tmp"
+set signature="~/.signature"
+
+# Added by martin 2/24/2016
+set markers=no # turn off + in wrapped lines
+set pager_index_lines=10
+
+# forward attachments
+set mime_forward=yes
+set mime_forward_rest=yes
+
+# filetype handling
+set mailcap_path = ~/.mutt/mailcap
+auto_view text/html
+auto_view text/calendar
+
+
