@@ -11,14 +11,12 @@ brew install Caskroom/cask/xquartz
 brew install wget
 brew install git
 
-brew install elink
+brew install elinks
 
 brew install cmake
 
 brew install octave
 brew install ruby
-
-brew install mutt
 
 brew install python
 brew install python3
