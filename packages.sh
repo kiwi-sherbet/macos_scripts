@@ -29,4 +29,3 @@ pip install -U PyOpenGL PyOpenGL_accelerate
 pip install -U nltk
 
 brew install opencv
-brew install pygame

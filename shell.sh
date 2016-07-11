@@ -30,7 +30,7 @@ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.s
 sh ./install.sh
 
 #shortcuts
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 ln -s /Applications/Unity/Unity.app/Contents/MacOS/Unity /usr/local/bin/unity
 ln -s /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin /usr/texbin
