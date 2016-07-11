@@ -24,13 +24,15 @@ git clone https://github.com/powerline/fonts.git ~/fonts
 rm -rf ~/fonts
 
 brew install vim --env-std --override-system-vim
+rm ~/.zshrc
 cp ./terminal/.vimrc ~/.vimrc
 
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
 sh ./install.sh
+rm ~/.install.sh
 
 #shortcuts
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 ln -s /Applications/Unity/Unity.app/Contents/MacOS/Unity /usr/local/bin/unity
 ln -s /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin /usr/texbin
