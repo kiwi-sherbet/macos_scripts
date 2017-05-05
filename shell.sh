@@ -18,8 +18,10 @@ brew install zsh --disable-etcdir
 #nvram boot-args="rootless=0 kext-dev-mode=1"
 
 brew install vim --env-std --override-system-vim
+mkdir ~/.vim/colors
 rm ~/.vimrc
 cp ./terminal/.vimrc ~/.vimrc
+cp ./terminal/vim-monokai/colors/monokai.vim ~/.vim/colors/monokai.vim
 
 #NeoBundle
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
