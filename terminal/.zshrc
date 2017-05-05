@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Ming/.oh-my-zsh
+export ZSH=/$USER/Ming/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -57,7 +57,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+# source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -92,34 +92,14 @@ source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
-# Git
-alias gnit="git init"
-alias gone="git clone"
-alias gull="git pull"
-alias gadd="git add --all"
-alias gtus="git status"
-alias gmit="git commit -m"
-alias gush="git push"
-alias gtch="git fetch"
-alias gase="git rebase"
-alias gert="git revert"
-alias gset="git reset"
-alias gick="git cherry-pick"
-alias gout="git checkout"
-alias grge="git merge"
-
-alias py="python"
-alias py27="python2.7"
-alias py34="python3.4"
 
 # Temporary Alias
-alias px4="cd ~/Projects/arcl/Firmware"
-alias px4_att="cd ~/Projects/arcl/Firmware/src/modules/mc_att_control"
-alias px4_mixer="cd ~/Projects/arcl/Firmware/src/modules/systemlib/mixer" 
+# alias px4="cd ~/Projects/arcl/Firmware"
+# alias px4_att="cd ~/Projects/arcl/Firmware/src/modules/mc_att_control"
+# alias px4_mixer="cd ~/Projects/arcl/Firmware/src/modules/systemlib/mixer" 
 
 # Hash
-hash -d arcl=$HOME/Projects/arcl
+# hash -d arcl=$HOME/Projects/arcl
 hash -d osx=$HOME/osx_scripts
-hash -d testing=$HOME/Projects/testing
 
 fortune | cowsay | lolcat
