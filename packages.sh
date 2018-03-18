@@ -4,8 +4,9 @@ brew upgrade
 #brew install caskroom/cask/brew-cask
 brew cask search
 
-brew tap homebrew/science
-brew tap homebrew/x11
+brew tap homebrew/core
+brew update
+
 brew install Caskroom/cask/xquartz
 
 brew install wget
@@ -18,14 +19,22 @@ brew install cmake
 #brew install octave
 #brew install ruby
 
-brew install python
-#brew install python3
+brew install python3
 
-brew tap homebrew/science
 brew update
+
+pip3 install --upgrade pip
+
 pip install -U numpy
 pip install -U matplotlib
 pip install -U PyOpenGL PyOpenGL_accelerate
-#pip install -U nltk
+pip install -U pygame
+pip install -U pyserial
+
+pip3 install -U numpy
+pip3 install -U matplotlib
+pip3 install -U PyOpenGL PyOpenGL_accelerate
+pip3 install -U pygame
+pip3 install -U pyserial
 
 brew install opencv
