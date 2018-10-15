@@ -37,7 +37,7 @@ rm -rf ~/fonts
 
 #shortcuts
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
-ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+#ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 #ln -s /Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin /usr/texbin
 
 #install Oh My Zsh

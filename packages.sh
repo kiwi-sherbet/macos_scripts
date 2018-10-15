@@ -1,13 +1,13 @@
 brew update
 brew upgrade
 
-#brew install caskroom/cask/brew-cask
-brew cask search
-
 brew tap homebrew/core
 brew update
 
+#brew install caskroom/cask/brew-cask
 brew install Caskroom/cask/xquartz
+
+brew cask search
 
 brew install wget
 #brew install git
@@ -25,11 +25,11 @@ brew update
 
 pip3 install --upgrade pip
 
-pip install -U numpy
-pip install -U matplotlib
-pip install -U PyOpenGL PyOpenGL_accelerate
-pip install -U pygame
-pip install -U pyserial
+#pip install -U numpy
+#pip install -U matplotlib
+#pip install -U PyOpenGL PyOpenGL_accelerate
+#pip install -U pygame
+#pip install -U pyserial
 
 pip3 install -U numpy
 pip3 install -U matplotlib
