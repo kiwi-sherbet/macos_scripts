@@ -19,7 +19,7 @@ brew install zsh --disable-etcdir
 
 brew install vim --env-std --override-system-vim
 
-pip install powerline-status
+pip3 install powerline-status
 mkdir ~/.vim/colors
 rm ~/.vimrc
 cp ./terminal/.vimrc ~/.vimrc
