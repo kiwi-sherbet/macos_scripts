@@ -1,1 +1,3 @@
-# osx_scripts
+# MacOS Scripts
+
+Shell scripts for installing softwares after OS reinstallation.
