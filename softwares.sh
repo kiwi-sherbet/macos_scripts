@@ -1,34 +1,28 @@
 ## install editors
-brew cask install sublime-text
-brew cask install atom
+brew install --cask sublime-text
+#brew install --cask atom
 
 ## install terminals
-# brew cask install totalterminal
-brew cask install iterm2
+brew install --cask iterm2
 
 ## install unity
-brew cask install unity
-#brew cask install unity-web-player
-
+#brew install --cask unity
+#brew install --cask unity-web-player install --cask
 ## install dropbox
-brew cask install dropbox
-#brew cask install google-drive
+brew install --cask dropbox
+#brew install --cask google-drive
 
 ## install tex
-# brew cask install mactex
-# brew cask install texstudio
+# brew install --cask mactex
+# brew install --cask texstudio
 
 ## install video call
-brew cask install skype
-# brew cask install google-hangouts
+brew install --cask zoom
+#brew install --cask skype
+#brew install --cask google-hangouts
 
 ## install app cleaner
-brew cask install appcleaner
-brew cask install the-unarchiver
-
-brew cask install gfxcardstatus
-
-brew cask install arduino
-
-## Outdated Apps
-# brew cask install limechat 
+brew install --cask appcleaner
+brew install --cask the-unarchiver
+brew install --cask gfxcardstatus
+brew install --cask arduino

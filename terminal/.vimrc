@@ -1,4 +1,4 @@
-source /usr/local/lib/python3.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
+source /usr/local/lib/python3.9/site-packages/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
 
 set nocompatible
@@ -16,7 +16,7 @@ set expandtab
 set pumheight=12
 colorscheme monokai
 highlight normal ctermbg=none
-let $PYTHON3_DLL="/usr/local/Frameworks/Python.framework/Versions/3.7/Python"
+let $PYTHON3_DLL="/usr/local/Frameworks/Python.framework/Versions/3.9/Python"
 let g:syntastic_python_python_exec = '$HOME/.pyenv/shims/python3'
 let g:syntastic_mode_map = {
             \ 'mode': 'active',
