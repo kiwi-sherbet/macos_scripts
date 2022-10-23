@@ -1,15 +1,15 @@
 ## install editors
-brew install --cask sublime-text
+#brew install --cask sublime-text
 #brew install --cask atom
 
 ## install terminals
-brew install --cask iterm2
+#brew install --cask iterm2
 
 ## install unity
 #brew install --cask unity
 #brew install --cask unity-web-player install --cask
 ## install dropbox
-brew install --cask dropbox
+#brew install --cask dropbox
 #brew install --cask google-drive
 
 ## install tex
@@ -25,4 +25,4 @@ brew install --cask zoom
 brew install --cask appcleaner
 brew install --cask the-unarchiver
 brew install --cask gfxcardstatus
-brew install --cask arduino
+#brew install --cask arduino
