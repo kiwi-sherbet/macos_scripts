@@ -34,5 +34,7 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 rm ~/.zshrc
 cp ./terminal/.zshrc ~/.zshrc
 
+mkdir -p $ZSH_CUSTOM/themes && curl -o $ZSH_CUSTOM/themes/rafiki.zsh-theme https://raw.githubusercontent.com/akabiru/rafiki-zsh/develop/rafiki.zsh-theme
+
 #chmod 755 /usr/local/share/zsh
 #chmod 755 /usr/local/share/zsh/site-functions

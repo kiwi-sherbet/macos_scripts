@@ -5,7 +5,7 @@ export ZSH=/Users/$USER/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bira"
+ZSH_THEME="rafiki"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -92,15 +92,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 
-
-# Temporary Alias
-# alias px4="cd ~/Projects/arcl/Firmware"
-# alias px4_att="cd ~/Projects/arcl/Firmware/src/modules/mc_att_control"
-# alias px4_mixer="cd ~/Projects/arcl/Firmware/src/modules/systemlib/mixer" 
-
-# Hash
-# hash -d arcl=$HOME/Projects/arcl
-hash -d osx=$HOME/osx_scripts
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
@@ -108,7 +100,5 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
 fi
-
-
 
 fortune | cowsay | lolcat
