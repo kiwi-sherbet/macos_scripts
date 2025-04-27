@@ -1,4 +1,3 @@
-source /usr/local/lib/python3.9/site-packages/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
 
 set nocompatible
@@ -16,7 +15,6 @@ set expandtab
 set pumheight=12
 colorscheme monokai
 highlight normal ctermbg=none
-let $PYTHON3_DLL="/usr/local/Frameworks/Python.framework/Versions/3.9/Python"
 let g:syntastic_python_python_exec = '$HOME/.pyenv/shims/python3'
 let g:syntastic_mode_map = {
             \ 'mode': 'active',
@@ -37,7 +35,6 @@ let g:lightline = {
     \   'readonly' : '%{&readonly?"⭤":""}',
     \ }
     \ }
-let g:Powerline_symbols = 'fancy'
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim
     call neobundle#begin(expand('~/.vim/bundle'))
@@ -67,8 +64,6 @@ if has('vim_starting')
     NeoBundle 'kevinw/pyflakes-vim'
     NeoBundle 'scrooloose/syntastic'
     NeoBundle 'bronson/vim-trailing-whitespace'
-    NeoBundle 'powerline/fonts'
-    NeoBundle 'powerline/powerline',{ 'rtp' : 'powerline/bindings/vim' }
     NeoBundle 'Yggdroot/indentLine'
     NeoBundle 'pep8'
     NeoBundle 'pyflakes'
